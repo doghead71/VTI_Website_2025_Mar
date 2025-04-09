@@ -1,17 +1,22 @@
 body {
-    front-font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    background-color: #f0f0f0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #cac7e08a;
     margin: 0;
     padding: 0;
-    color: aqua;
+    color: #070404fe;
 }
 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 header div {
     width: 100px;
-    height:100px;
+    height: 100px;
 }
 
 header img {
-    width 100px;
+    width: 100%;
     height: auto;
 }
