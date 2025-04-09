@@ -6,9 +6,15 @@ body {
     color: rgb(0, 0, 0);
 }
 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 header div {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
 }
 
 header img {
