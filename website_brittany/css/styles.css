@@ -1,5 +1,5 @@
 body {
-    font-family: ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color:white;
     margin: 0;
     padding: 0;
@@ -22,11 +22,42 @@ header div {
 
 header img {
     width: 100%;
-    height: auto;
+    height: 90%;
 }
 
 header h1 {
     border: 2px none blue;
     padding: 0px;
     margin-left: 0px;
+}
+
+nav {
+    background-color: black;
+    border-bottom: 2px solid white;
+    box-shadow: 0 2px 4px white; 
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+    column-gap: 20px;
+    padding: 0;
+    margin: 0;
+    color: pink;
+}
+
+nav li {
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    cursor:default;
+    transition: all 0.2s ease-out;
+}
+
+nav li:hover {
+    background-color: white;
+    border-radius: 0px;
+    border: 1px
+    color: white;
 }
