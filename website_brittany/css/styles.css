@@ -61,3 +61,13 @@ nav li:hover {
     border: 1px
     color: white;
 }
+
+nav li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+nav li a:visited{ 
+    text-decoration: none !important;
+    color: inherit !important;
+}
