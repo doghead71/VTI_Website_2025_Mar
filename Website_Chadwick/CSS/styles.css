@@ -1,0 +1,20 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #270884;
+    margin: 0;
+    padding: 0;
+    color: #a40c0c;
+}
+header{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+header dev{
+    width: 100px;
+    height: 100px;
+}
+header img{
+    width: 100px;
+    height: auto;
+}
