@@ -35,7 +35,7 @@ nav ul {
     background-color: rgb(28, 192, 233);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-bottom: 2px solid blue; 
-    box-shadow: 2px 4px blue;   
+    box-shadow: 2px 4px blue;  
 }
 
 nav ul {
@@ -60,4 +60,24 @@ nav li:hover{
     border-radius: 15px;
     border: 1px solid whitesmoke;
     color: rgb(254, 253, 255);
+}
+
+nav li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+nav li a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+
+nav {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.content {
+    padding: 15px;
+    margin: 0 auto; /* centers the content horizontally */
 }
