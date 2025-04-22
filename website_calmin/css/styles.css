@@ -4,12 +4,16 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
+    box-sizing: border-box;
 }
 
 header {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    column-gap: 20px;
+
 }
 
 header div {
@@ -20,4 +24,48 @@ header div {
 header img {
     width: 100%;
     height: auto;
+}
+
+header h1 {
+    border: 2px none blue;
+    padding: 0px;
+    margin-left: 0px;
+}
+
+nav {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav li{
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+nav li:hover{
+    background-color: #e9ecef;
+    border-radius: 25px;
+    border: 1px solid #007bff;
+    color: #007bff;
+}
+
+nav li a{
+    text-decoration: none;
+    color: inherit;
+}
+nav li a:visited{
+    text-decoration: none !important;
+    color: inherit !important;
 }
