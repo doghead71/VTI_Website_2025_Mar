@@ -48,13 +48,10 @@ nav ul{
 }
 
 nav li{
-    padding: 10px 20px;
-    border: 1px solid transparent;
-    cursor: pointer;
-    transition: all 0.3s ease;
+    padding: 0px;
 }
 
-nav li:hover{
+nav li a:hover{
     background-color: #e9ecef;
     border-radius: 25px;
     border: 1px solid #007bff;
@@ -64,6 +61,12 @@ nav li:hover{
 nav li a{
     text-decoration: none;
     color: inherit;
+    display: block;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
 }
 nav li a:visited{
     text-decoration: none !important;
