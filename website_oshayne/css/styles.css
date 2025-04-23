@@ -47,14 +47,11 @@ nav ul {
 }
 
 nav li {
-    padding: 10px 20px;
-    border: 5px;
-    cursor: pointer;
-    transition: background-color 0.5s ease;
+    padding: 0px;
 
 }
 
-nav li:hover {
+nav li a:hover {
     background-color: #dbf69e;
     border-radius: 5px;
     border: 2px solid blue;
@@ -64,6 +61,10 @@ nav li:hover {
 Nav li a {
     text-decoration: none;
     color: inherit;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 Nav li a:visited{
