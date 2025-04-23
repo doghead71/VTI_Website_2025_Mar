@@ -1,20 +1,70 @@
-body{
+body {
     font-family: Arial, sans-serif;
     background-color: #270884;
     margin: 0;
     padding: 0;
-    color: #a40c0c;
+    color: #b4c0f8;
 }
-header{
-display: flex;
-justify-content: center;
-align-items: center;
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 20px;
 }
-header dev{
+
+header div {
+    width: 100px;
+    height: 100px;
+
+}
+
+header img {
     width: 100px;
     height: 100px;
 }
-header img{
-    width: 100px;
-    height: auto;
+
+h1 {
+    border: 2px solid green;
+    padding: 0px;
+    margin-left: 0px;
+}
+
+nav {
+    border-bottom: 2px solid #f5f6fa;
+    box-shadow: 0 2px 4px rgba(red, green, blue, alpha);
+}
+
+nav ul {
+
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+nav li {
+    padding: 10px 20px;
+    border: 1px solid transparent cursar: pointer;
+    transition:all 0.4 ease;
+}
+
+nav li:hover {
+    background-color: burlywood;
+    border-radius: 25px;
+    border: 1px solid #b4c0f8 color:#270884;
+}
+
+nav li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav li a:visited {
+    text-decoration: none;
+    color: inherit;
 }
