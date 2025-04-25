@@ -23,6 +23,7 @@ header img {
     width: 100%;
     height: auto;
 }
+
 header h1 {
     border: 2px none black;
     margin: 20px;
@@ -33,7 +34,7 @@ nav {
     background-color: white;
     border-bottom: 2px solid transparent;
     border-top: 2px solid transparent;
-    box-shadow: 2 2px 4px black
+    box-shadow: 0 2px 4px black
 }
 
 nav ul {
@@ -45,14 +46,13 @@ nav ul {
     margin: 0px;
 }
 
-nav li{
-    padding: 10px 20px;
-    border: 1px solid transparent;
-    cursor: pointer;
-    transition: all 0.2s ease;
+nav li {
+    padding: 0px;
+    text-align: center;
+
 }
 
-nav li:hover {
+nav li a:hover {
     background-color: white;
     border-radius: 10px;
     border: 2px solid grey;
@@ -62,9 +62,40 @@ nav li:hover {
 nav li a {
     text-decoration: none;
     color: inherit;
+    display: block;
+    height: auto;
+    padding: 0;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    padding: 10px 20px;
+    text-align: center;
 }
 
 nav li a:visited {
     text-decoration: none !important;
     color: inherit !important;
+    text-align: center !important;
 }
+
+.card-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    column-gap: 45px;
+    row-gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 8px 14px rgb(0, 0, 0.1);
+    padding: 10px;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    text-align: center;
+}
+
