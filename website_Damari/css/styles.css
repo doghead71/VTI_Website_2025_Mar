@@ -83,3 +83,72 @@ nav {
     padding: 15px;
     margin: 0 auto; /* centers the content horizontally */
 }
+
+.card-container {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+    row-gap: 5px;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+    padding: 10px;
+    background: blue;
+    width: 250px;
+    height: 300px;
+    margin: 10PX;
+}
+
+.card-image {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+    padding: 10px;
+    background-color: rgb(28, 192, 233);
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-1 {
+    background-image: url(../img/Sublimation.webp);
+}
+
+.card-2 {
+    background-image: url(../img/DTF.jpg);
+}
+
+.card-3 {
+    background-image: url(../img/Graphic\ Design.png);
+}
+
+.card-4 {
+    background-image: url(../img/Engraving.jpg);
+}
+
+.card:hover {
+    transform: scale(1.10);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+
+.card h2 {
+    margin-bottom: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.card p {
+    margin-top: 0px;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: justify;
+}
