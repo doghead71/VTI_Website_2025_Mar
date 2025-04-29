@@ -32,8 +32,8 @@ h1 {
 }
 
 nav {
-    border-bottom: 2px solid #f5f6fa;
-    box-shadow: 0 2px 4px rgba(red, green, blue, alpha);
+    border-bottom: 2px solid #101112;
+    box-shadow: 0 2px 4px rgba(6, 156, 54, 0.1);
 }
 
 nav ul {
@@ -48,20 +48,32 @@ nav ul {
 }
 
 nav li {
-    padding: 10px 20px;
-    border: 1px solid transparent cursar: pointer;
-    transition:all 0.4 ease;
-}
+    padding: 0px;
+    }
 
 nav li:hover {
     background-color: burlywood;
     border-radius: 25px;
-    border: 1px solid #b4c0f8 color:#270884;
+    border: 1px solid #b4c0f8;
+    color:  #270884;
 }
 
-nav li a {
+nav li a:hover{
+    background-color: #270884;
+    border-radius: 25px;
+    border: 1px solid transparent;
+    color: #007bff
+}
+nav li a{
     text-decoration: none;
     color: inherit;
+    display: block;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    
 }
 
 nav li a:visited {
