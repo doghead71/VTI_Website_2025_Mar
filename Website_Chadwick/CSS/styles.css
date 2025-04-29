@@ -80,3 +80,20 @@ nav li a:visited {
     text-decoration: none;
     color: inherit;
 }
+.card-container{
+    padding:15px;
+    display: flex;
+    column-gap: 45px;
+    row-gap: 35px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.card{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: -2px 2px 4px rgb(0, 0,0,0.1);
+    padding: 10px;
+    height: 300px;
+    width: 300px;
+}
