@@ -97,3 +97,22 @@ nav li a:visited {
     height: 300px;
     width: 300px;
 }
+
+.teratech{
+    padding:15px;
+    display: flex;
+    column-gap: 45px;
+    row-gap: 35px;
+    justify-content: center;
+    flex-wrap: wrap;    
+        
+    }
+.department{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: -2px 2px 4px rgb(0, 0,0,0.1);
+    padding: 10px;
+    height: 150px;
+    width: 150px;
+    max-width: 50px;
+}
