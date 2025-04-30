@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e4f4f4;
+    color: #020202;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+header div {
+    height: 134px;
+    width: 200px;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+}
+
+header h1 {
+    border: 2px none black;
+    margin: 20px;
+    padding: 10px;
+}
+
+nav {
+    background-color: white;
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
+    box-shadow: 0 2px 4px black
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav li {
+    padding: 0px;
+    text-align: center;
+
+}
+
+nav li a:hover {
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid grey;
+    color: black;
+}
+
+nav li a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    height: auto;
+    padding: 0;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav li a:visited {
+    text-decoration: none !important;
+    color: inherit !important;
+    text-align: center !important;
+}
+
+.gallary {
+    display:flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    column-gap: 20px;
+    row-gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+
+.image {
+    padding: 0px;
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+}
+
+div img {
+    height: 200px;
+    width: auto;
+}
+
