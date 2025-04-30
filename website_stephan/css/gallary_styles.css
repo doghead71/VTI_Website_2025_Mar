@@ -80,28 +80,29 @@ nav li a:visited {
 }
 
 .gallary {
-    display:flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* grid-template-rows: repeat(auto-fit, minmax(300px, 1fr)); */
     padding: 0;
     margin: 0;
     column-gap: 20px;
     row-gap: 10px;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-    
 }
 
 .image {
     padding: 0px;
     margin: 20px;
     justify-content: center;
-    text-align: center;
-    border: 1px solid black;
+    /* text-align: center; */
+    /* border: 3px solid black; */
+    
 }
 
 div img {
-    height: 200px;
-    width: auto;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    border: 3px solid black;
+    box-shadow: 0 0 20px black;
 }
 
