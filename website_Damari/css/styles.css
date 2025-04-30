@@ -110,8 +110,7 @@ nav {
     box-shadow: 0 2px 4px rgb(0, 0, 0);
     padding: 10px;
     background-color: rgb(28, 192, 233);
-    height: 285px;
-    width: auto;
+    height: 150px;
     margin-bottom: 15px;
     background-size: cover;
     background-position: center;
@@ -119,51 +118,19 @@ nav {
 }
 
 .card-1 {
-    background-image: url(../img/Gallery/Basketball.jpg);
+    background-image: url(../img/Sublimation.webp);
 }
 
 .card-2 {
-    background-image: url(../img/Gallery/Blue\ Hole.jpg);
+    background-image: url(../img/DTF.jpg);
 }
 
 .card-3 {
-    background-image: url(../img/Gallery/Bolt.jpg);
+    background-image: url(../img/Graphic\ Design.png);
 }
 
 .card-4 {
-    background-image: url(../img/Gallery/camera.jpg);
-}
-
-.card-5 {
-    background-image: url(../img/Gallery/High\ Jump.jpeg);
-}
-
-.card-6 {
-    background-image: url(../img/Gallery/Negril.jpg);
-}
-
-.card-7 {
-    background-image: url(../img/Gallery/NY.webp);
-}
-
-.card-8 {
-    background-image: url(../img/Gallery/pov.jpg);
-}
-
-.card-9 {
-    background-image: url(../img/Gallery/sitting.jpg);
-}
-
-.card-10 {
-    background-image: url(../img/Gallery/street.jpg);
-}
-
-.card-11 {
-    background-image: url(../img/Gallery/swing.jpg);
-}
-
-.card-12 {
-    background-image: url(../img/Gallery/Winners.jpg);
+    background-image: url(../img/Engraving.jpg);
 }
 
 .card:hover {
@@ -171,7 +138,6 @@ nav {
     transition: transform 0.3s ease;
     cursor: pointer;
 }
-
 
 .card h2 {
     margin-bottom: 5px;
@@ -184,4 +150,29 @@ nav {
     font-size: 14px;
     line-height: 1.4;
     text-align: justify;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 20px;
+    margin: 0;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+
+.image {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.image img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
