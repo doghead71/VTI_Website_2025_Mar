@@ -110,7 +110,8 @@ nav {
     box-shadow: 0 2px 4px rgb(0, 0, 0);
     padding: 10px;
     background-color: rgb(28, 192, 233);
-    height: 150px;
+    height: 285px;
+    width: auto;
     margin-bottom: 15px;
     background-size: cover;
     background-position: center;
@@ -118,19 +119,51 @@ nav {
 }
 
 .card-1 {
-    background-image: url(../img/Sublimation.webp);
+    background-image: url(../img/Gallery/Basketball.jpg);
 }
 
 .card-2 {
-    background-image: url(../img/DTF.jpg);
+    background-image: url(../img/Gallery/Blue\ Hole.jpg);
 }
 
 .card-3 {
-    background-image: url(../img/Graphic\ Design.png);
+    background-image: url(../img/Gallery/Bolt.jpg);
 }
 
 .card-4 {
-    background-image: url(../img/Engraving.jpg);
+    background-image: url(../img/Gallery/camera.jpg);
+}
+
+.card-5 {
+    background-image: url(../img/Gallery/High\ Jump.jpeg);
+}
+
+.card-6 {
+    background-image: url(../img/Gallery/Negril.jpg);
+}
+
+.card-7 {
+    background-image: url(../img/Gallery/NY.webp);
+}
+
+.card-8 {
+    background-image: url(../img/Gallery/pov.jpg);
+}
+
+.card-9 {
+    background-image: url(../img/Gallery/sitting.jpg);
+}
+
+.card-10 {
+    background-image: url(../img/Gallery/street.jpg);
+}
+
+.card-11 {
+    background-image: url(../img/Gallery/swing.jpg);
+}
+
+.card-12 {
+    background-image: url(../img/Gallery/Winners.jpg);
 }
 
 .card:hover {
