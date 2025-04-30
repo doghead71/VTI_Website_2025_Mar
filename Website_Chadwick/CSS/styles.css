@@ -99,20 +99,24 @@ nav li a:visited {
 }
 
 .teratech{
-    padding:15px;
-    display: flex;
-    column-gap: 45px;
-    row-gap: 35px;
-    justify-content: center;
-    flex-wrap: wrap;    
+    display: grid;
+    /* grid-template-columns:repeat(auto-fit,minmax(100px,1fr)); */
+    padding: 0;
+    margin: 0;
+    column-gap: 200px;
+    row-gap: 10px;
+        
         
     }
 .department{
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: -2px 2px 4px rgb(0, 0,0,0.1);
-    padding: 10px;
-    height: 150px;
-    width: 150px;
-    max-width: 50px;
+    /* border: 1px solid #ddd; */
+    /* border-radius: 5px; */
+    /* box-shadow: -2px 2px 4px rgb(0, 0,0,0.1); */
+    padding: 0px;
+    margin:0;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    object-fit: cover;
+    
 }
