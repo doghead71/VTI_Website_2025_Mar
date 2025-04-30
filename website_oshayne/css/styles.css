@@ -82,7 +82,7 @@ Nav li a:visited{
 .card{
     background-color: #d5e9f2;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: -45px 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin: 10px;
     height: 300px;
