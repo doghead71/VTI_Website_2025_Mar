@@ -100,21 +100,57 @@ nav li a:visited {
 }
 
 #main_screen {
-    display: grid;
-    border: 1px solid black;
-    grid-template-columns: repeat(300, 1fr);
+    display: flex;
+    flex-direction: column;
+    border: 1px  solid black;
+}
+
+
+#big_box {
+    width: 700px;
 }
 
 .box img {
-   height:auto;
-   width: 100%;
-   object-fit: cover; 
+   height: 100%;
+   width: auto;
    border: 1px solid black;
-   column-gap: 100px;
    row-gap: 50px;
 }
 
+.box {
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+}
 .info_container {
+
+    text-align: center;
 
 }
 
+#top_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid black;
+}
+
+#center_container {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid black;
+}
+
+#left, #right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid black;
+}
+
+#left p {
+    padding-right: 20px;
+}
+#right p {
+    padding-left: 20px;
+}
