@@ -99,3 +99,22 @@ nav li a:visited {
     text-align: center;
 }
 
+#main_screen {
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns: repeat(300, 1fr);
+}
+
+.box img {
+   height:auto;
+   width: 100%;
+   object-fit: cover; 
+   border: 1px solid black;
+   column-gap: 100px;
+   row-gap: 50px;
+}
+
+.info_container {
+
+}
+
