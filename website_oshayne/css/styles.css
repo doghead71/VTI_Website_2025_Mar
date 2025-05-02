@@ -73,10 +73,13 @@ Nav li a:visited{
     
 }
 
-.card-container{
-    padding: 20px;
+.card-container {
+    padding: 15px;
     display: flex;
     column-gap: 45px;
+    row-gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .card{
@@ -87,19 +90,44 @@ Nav li a:visited{
     margin: 10px;
     height: 300px;
     width: 300px;
-    
 }
 
-.mainheadline-container{
-    padding: 20px;
+.section h1 {
     display: flex;
-    column-gap: 45px;
+    border: 3px solid blue;
+    box-sizing: border-box;
+    justify-content: center;
+    font-size: xx-large;
+    padding: 50px;
+    height: 150px;
+    width: 150%;
 }
 
-.main{
-    background-color: #d5e9f2;
-    border-radius: 4px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+.section h2 {
+    display: flex;
+    border: 3px solid blue;
+    box-sizing: border-box;
+    justify-content: center;
+    font-size:x-large;
+    padding: 20px;
+    height: 100px;
+}
+
+.section h3 {
+    display: flex;
+    border: 3px solid blue;
+    box-sizing: border-box;
+    justify-content: center;
+    font-size:x-large;
+    padding: 20px;
+    height: 100px;
+}
+
+.content-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
     padding: 20px;
     margin: 10px;
     height: 200px;
