@@ -28,7 +28,8 @@ header img {
 header h1 {
     border: 2px none blue;
     padding: 0px;
-    margin-left: 0;
+    margin-left: 0px;
+    margin-top: 0px;
 }
 
 nav ul {
@@ -175,4 +176,129 @@ nav {
     width: 100%;
     height: 200px;
     object-fit: cover;
+}
+
+.about-box-container {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+    row-gap: 5px;   
+}
+
+.about-box {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+    padding: 10px;
+    background: rgb(252, 252, 253);
+    width: 2500px;
+    height: 250px;
+    margin: 10PX;
+}
+
+.about-box-image {
+    border-radius: 5px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-img1 {
+    background-image: url(../img/AboutUs.jpg)
+}
+
+.about-text h2 {
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.about-text p {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: auto;
+}
+
+.about-box-right-container {
+    display: flex;
+    padding-top: 145px;
+    padding-left: 20px;
+}
+
+.about-box-right {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+    padding: 10px;
+    background: rgb(252, 252, 253);
+    width: 500px;
+    height: 250px;
+    margin: 0PX;
+}
+
+.about-box-right-image {
+    border-radius: 5px;
+    padding: 0px;
+    width: 500px;
+    height: 250px;
+    margin-bottom: 0px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-img2 {
+    background-image: url(../img/WhatWeDo.png)
+}
+
+.about-text-right h2 {
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.about-text-right p {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+.about-box-left {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+    padding: 10px;
+    background: rgb(252, 252, 253);
+    width: 500px;
+    height: 250px;
+    margin-left: 255px;
+}
+
+.about-box-left-image {
+    border-radius: 5px;
+    padding: 0px;
+    width: 500px;
+    height: 250px;
+    margin-bottom: 0px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-img3 {
+    background-image: url(../img/WhyChooseUs.jpg)
+}
+
+.about-text-left h2 {
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+.about-text-left p {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    text-align: justify;
 }
