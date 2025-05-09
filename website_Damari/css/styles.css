@@ -302,3 +302,20 @@ nav {
     padding-bottom: 20px;
     text-align: justify;
 }
+
+.form-container {
+    display: flex;
+    height: 500px;
+    width: 800px;  
+    border: 2px groove black;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    background-color: whitesmoke;
+}
