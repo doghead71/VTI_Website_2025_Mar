@@ -307,7 +307,7 @@ nav {
     display: flex;
     height: 500px;
     width: 800px;  
-    border: 2px groove black;
+    border: 4px groove black;
     margin: auto;
     margin-top: 50px;
 }
@@ -318,4 +318,17 @@ nav {
     width: 50%;
     align-items: center;
     background-color: whitesmoke;
+}
+
+.form h2 {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+}
+
+.login-box {
+    padding: 12px;
+    width: 65%;
+    margin: 15px;
+    border: 1px solid black;
 }
