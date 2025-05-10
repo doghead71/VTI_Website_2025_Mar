@@ -25,15 +25,45 @@
             <li><a href="./pages/gallery.html">Gallery</a></li>
         </ul>
     </nav>
-    <h1>Register</h1>
-        <form><label for="Email">Enter Email:</label>
+
+    <div>
+        <div class="card-container">
+            <div class="section">
+                <h1>Welcome to Jamaica</h1>
+            </div>
+            <div class="content-boxes section"></div>
+        </div>
+    </div>
+
+    <div>
+        <h1>Register</h1>
+    </div>
+    <div class="input-box">
+        <form>
+            <label for="Email">Enter Email:</label>
             <input type="text" id="name" name="name" required>
-            <br>
+            <br><br>
             <label for="Password">Password:</label>
-            <input type="Password" id="Password" name="Password" oninput="this.setCustomValidity(this.value ? '' : 'Please fill out this field.')">
-            <br>
+            <input type="text" id="Password" name="Password" required oninput="this.setCustomValidity(this.value ? '' : 'Please fill out this field.')">
+            <img src="./img/close eye.jpg" id="eyeicon" alt="Eye icon to toggle password visibility">
+            <br><br>
             <button type="submit">Submit</button>
         </form>
+    </div>
+    <script>
+        let eyeicon = document.getElementById("eyeicon");
+        let password = document.getElementById("Password");
+
+        eyeicon.onclick = function() {
+            if (password.type === "password") {
+                password.type = "text";
+                eyeicon.src = "./img/eye-open.png";
+            } else {
+                password.type = "password";
+                eyeicon.src = "./img/close eye.jpg";
+            }
+        };
+    </script>
     </body>
 
     </html>
