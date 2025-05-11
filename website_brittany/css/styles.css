@@ -135,3 +135,35 @@ div img {
     column-gap: 20px;
     justify-content: space-between;
 }
+
+.Welcome {
+    display: flex;
+    width: 700px;
+    height: 300px;
+    margin: 0px;
+    border: 3px solid black;
+    box-sizing: content-box;
+    border-color: black;
+    font-size: medium;
+    padding: 200px;
+}
+
+.SignUp {
+    width: 100px;
+    height: 300px;
+    margin: 0px;
+    border: 3px solid black;
+    border-color: black;
+    padding: 200px;
+    flex-direction: column;    
+}
+
+.Register-Boxes {
+    display: flex;
+}
+
+.Credentials .input-box {
+    width: 200px;
+    height: 200px;
+    font-size:xx-large;
+}
