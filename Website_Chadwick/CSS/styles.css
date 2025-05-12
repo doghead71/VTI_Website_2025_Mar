@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #270884;
-    margin: 0;
+    margin: 6px;
     padding: 0;
     color: #b4c0f8;
 }
@@ -100,7 +100,7 @@ nav li a:visited {
 
 .teratech{
     display: grid;
-    /* grid-template-columns:repeat(auto-fit,minmax(100px,1fr)); */
+    grid-template-rows:repeat(auto-fit,minmax(100px,1fr)); 
     padding: 0;
     margin: 0;
     column-gap: 200px;
@@ -119,4 +119,37 @@ nav li a:visited {
     width: auto;
     object-fit: cover;
     
+}
+.mainbox{
+    /* display: flex; */
+    width: auto;
+    height: 300px;
+    border: 6px solid #121110; 
+    flex-wrap: wrap;
+    /* padding: 20px; */
+    
+}
+.box1{
+    
+    width: 700px;
+    height: 300px;
+    border: 4px solid #101112; 
+    margin:auto;
+     }
+.box2{
+    /* display: flex; */
+    width: 700px;
+    height: 300px;
+    border: 4px solid #101112; 
+    
+   }
+
+.boxing{
+    Display:flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin: auto;
+    column-gap:6px; 
+    /* row-gap: 6px; */
+
 }
