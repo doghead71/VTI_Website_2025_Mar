@@ -167,3 +167,14 @@ div img {
     height: 200px;
     font-size:xx-large;
 }
+
+@media screen and (max-width: 768px) { /*  targeting tablets and devices landscape orientation*/
+  
+    
+}
+
+@media screen and (max-width: 480px) { /*  targeting mobile devices */  
+    .Register-Boxes {
+        flex-direction: column;
+    }
+}
