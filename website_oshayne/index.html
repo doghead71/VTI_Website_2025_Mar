@@ -2,18 +2,18 @@
 <html lang="en">
 
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title> Oshayne Meggoe </title>
-<link rel="stylesheet" href="./css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title> Oshayne Meggoe </title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <header>
         <div>
-        <img src="./img/Logo.webp" alt="logo">
-    </div>
-    <h1>Welcome to My Website</h1>
+            <img src="./img/Logo.webp" alt="logo">
+        </div>
+        <h1>Welcome to My Website</h1>
     </header>
     <nav>
         <ul>
@@ -27,43 +27,29 @@
     </nav>
 
     <div>
-        <div class="card-container">
-            <div class="section">
+        <div class="register-box">
+            <div class="welcome">
                 <h1>Welcome to Jamaica</h1>
+                <p> Jamaica, a Caribbean island nation, has a lush topography of mountains, rainforests and reef-lined
+                    beaches.
+                    Many of its all-inclusive resorts are clustered in Montego Bay, with its British-colonial
+                    architecture,
+                    and Negril, known for its diving and snorkeling sites.
+                    Jamaica is famed as the birthplace of reggae music, and its capital Kingston is home to the Bob
+                    Marley Museum, dedicated to the famous singer.</p>
             </div>
-            <div class="content-boxes section"></div>
+            <div class="signup">
+                <h1>Login</h1>
+                <div class="Credentials">
+                    <div class="input-box">
+                        <input type="text" placeholder="email" required>
+                        <input type="password" placeholder="password" required>
+                        <button type="submit" class="button">click me</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+</body>
 
-    <div>
-        <h1>Register</h1>
-    </div>
-    <div class="input-box">
-        <form>
-            <label for="Email">Enter Email:</label>
-            <input type="text" id="name" name="name" required>
-            <br><br>
-            <label for="Password">Password:</label>
-            <input type="text" id="Password" name="Password" required oninput="this.setCustomValidity(this.value ? '' : 'Please fill out this field.')">
-            <img src="./img/close eye.jpg" id="eyeicon" alt="Eye icon to toggle password visibility">
-            <br><br>
-            <button type="submit">Submit</button>
-        </form>
-    </div>
-    <script>
-        let eyeicon = document.getElementById("eyeicon");
-        let password = document.getElementById("Password");
-
-        eyeicon.onclick = function() {
-            if (password.type === "password") {
-                password.type = "text";
-                eyeicon.src = "./img/eye-open.png";
-            } else {
-                password.type = "password";
-                eyeicon.src = "./img/close eye.jpg";
-            }
-        };
-    </script>
-    </body>
-
-    </html>
+</html>

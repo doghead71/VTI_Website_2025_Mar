@@ -67,10 +67,10 @@ Nav li a {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-Nav li a:visited{
+Nav li a:visited {
     text-decoration: none;
     color: inherit;
-    
+
 }
 
 .card-container {
@@ -82,7 +82,7 @@ Nav li a:visited{
     flex-wrap: wrap;
 }
 
-.card{
+.card {
     border: 5px solid rgb(229, 229, 248);
     border-radius: 5px;
     box-shadow: -45px 2px 4px rgba(0, 0, 0, 0.1);
@@ -99,7 +99,7 @@ Nav li a:visited{
     border: 5px solid blue;
     box-sizing: content-box;
     justify-content: center;
-    font-size:xx-large;
+    font-size: xx-large;
     padding: 20px;
 
 }
@@ -133,27 +133,37 @@ Nav li a:visited{
     column-gap: 20px;
 }
 
-.input-box {
-    background-color: #f9f6f6;
-    width: 500px;
-    max-width: 500px;
-    border-radius: 20px;
-    padding: 10px 20px;
-    margin: 85px auto;
+.signup {
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+    border-left: 3px solid blue;
+    border-color: black;
+    padding: 200px;
+    flex-direction: column
+}
+
+.register-box {
     display: flex;
-    align-items: center;
+    border: 3px solid black;
 }
 
-.input-box input {
-    width: 100%;
-    padding: 10px;
-    border: 0;
-    outline: 0;
-    font-size: 16px;
-    color: rgb(16, 17, 17);
+.credentials .input-box {
+    font-size: xx-large;
 }
 
-.input-box img {
-    width: 35px;
-    cursor: pointer;
+@media screen and (max-width: 768px) {
+    /* targeting tablets and devices landscape */
+
+}
+
+@media screen and (max-width: 480px) {
+
+    /* targeting mobile devices */
+    .register-box {
+        flex-direction: column;
+    }
+.signup{
+    padding: 50px;
+}
 }
