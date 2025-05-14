@@ -190,7 +190,7 @@ nav li a:visited {
     .submit {
         margin: auto;
     }
-     .container form .butn {
+     .container form .btn {
         margin-left: 50%;
         transform:translateX(-50%);
         width:120px;
