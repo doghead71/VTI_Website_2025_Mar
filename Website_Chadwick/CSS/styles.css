@@ -216,10 +216,10 @@ nav li a:visited {
     height: 34px;
     border: none;
     outline: none;
-    background: #031e63;
+    background: #059297;
     font-size: 16px;
     text-transform: uppercase;
-    color: white;
+    color: rgb(255, 255, 255);
     border-radius: 4px;
     transition: .3s;
 }
