@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> Damari Smith </title>
+        <title> Home </title>
         <link rel="stylesheet" href="./css/styles.css">
     </head>
 
@@ -23,6 +23,7 @@
                 <li><a href="./pages/services.html">Services</a></li>
                 <li><a href="./pages/sample.html">Samples</a></li>
                 <li><a href="./pages/gallery.html">Gallery</a></li>
+                <li><a href="./pages/calculator.html">Calculator</a></li>
             </ul>
         </nav>
         <div class="form-container">
@@ -37,10 +38,11 @@
                 <h2>Login</h2>
                 <input type="email" name="email" class="login-box" placeholder="Enter Email">
                 <input type="password" name="password" class="login-box" placeholder="Enter Password">
-                <button type="submit" id="submit">SIGN IN</button>
+                <button type="submit" id="button" onclick="createLogin()"> SIGN IN </button>
                 <a href="#">Forget Password?</a>
             </form>
         </div>
+        <script src="./scripts/login.js"></script>
     </body>
 
 </html>
