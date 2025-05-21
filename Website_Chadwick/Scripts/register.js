@@ -33,3 +33,11 @@ function createRegistration(){
     console.log("email:",email);
     console.log("Password:",password);
 }
+//Calculator script
+function num(val){
+    document.getElementByID('result').value += val;
+}
+function equal(){
+    let Input = document.getElementByID('result').value;
+    let Output = eval(Input);
+}

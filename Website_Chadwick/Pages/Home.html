@@ -3,16 +3,18 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="x-UA-campatible" content="IE=eduge">
     <meta name="Viewpoint" content="width=devide-width" ,intial-scale="1.0">
-    <title> Chadwick Russell 3</title>
-    <link rel="stylesheet" href="/Website_Chadwick/CSS/styles.css">
+    <title> Java Script Calculator</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <script src="../Scripts/register.js"></script>
 </head>
 
 <body>
     <header>
 
         <div>
-            <img src="/Website_Chadwick/IMG/logo.webp" alt="logo">
+            <img src="../IMG/logo.webp" alt="logo">
         </div>
         <h1>My Website</h1>
     </header>
@@ -23,12 +25,43 @@
             <li><a href="../Pages/contact.html">contact</a></li>
             <li><a href="../Pages/Services.html">Services</a></li>
             <li><a href="../Pages/sample.html">Sample</a></li>
-    </ul>
+        </ul>
     </nav>
-    <h2>Where dreams met expectation</h2>
-    <div class="regmain">
-        <h1>  Welcome to Tera Teach Solutions</h1>
-    </div>
+    <!-- <h2>"Calculator using Java script"</h2> -->
+    <table class="tbl">
+        <tr>
+            <td><input type="text" id="result"></td>
+            <td><input type="button" value="C" onclick="clr()" id="clear"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="1" onclick="num('1')"></td>
+            <td><input type="button" value="2" onclick="num('2')"></td>
+            <td><input type="button" value="3" onclick="num('3')"></td>
+            <td><input type="button" value="/" onclick="num('/')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" onclick="num('4')"></td>
+            <td><input type="button" value="5" onclick="num('5')"></td>
+            <td><input type="button" value="6" onclick="num('6')"></td>
+            <td><input type="button" value="-" onclick="num('-')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="7" onclick="num('7')"></td>
+            <td><input type="button" value="8" onclick="num('8')"></td>
+            <td><input type="button" value="9" onclick="num('9')"></td>
+            <td><input type="button" value="+" onclick="num('+')"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="." onclick="num('.')"></td>
+            <td><input type="button" value="0" onclick="num('0')"></td>
+            <td><input type="button" value="=" onclick="num('=')"></td>
+            <td><input type="button" value="*" onclick="num('*')"></td>
+        </tr>
+
+
+
+    </table>
+
 </body>
 
 </html>
