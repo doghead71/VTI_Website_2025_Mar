@@ -19,3 +19,8 @@ function calc(){
     text = eval(text);
     flipScreen();
 }
+
+function clearAll(){
+    text = "";
+    flipScreen();
+}
