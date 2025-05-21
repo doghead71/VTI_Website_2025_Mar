@@ -8,8 +8,7 @@ function press(value){
 }
 
 function clear(){
-    text = "";
-    flipScreen();
+    document.querySelector('input[name="display"]').value = "";
 }
 
 function flipScreen(){
